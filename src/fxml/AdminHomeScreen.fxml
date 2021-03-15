@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="498.0" prefWidth="732.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AdminHomeScreenController">
+   <children>
+      <JFXTabPane fx:id="adminTabPane" layoutX="191.0" layoutY="175.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <tabs>
+            <Tab fx:id="addQuizTab" text="Add Quiz" />
+            <Tab fx:id="addUserTab" text="Add User" />
+            <Tab fx:id="viewQuizzesTab" text="View Quizzes" />
+         </tabs>
+      </JFXTabPane>
+   </children>
+</AnchorPane>
